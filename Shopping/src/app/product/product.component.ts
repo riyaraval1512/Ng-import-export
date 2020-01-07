@@ -7,9 +7,15 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ProductComponent implements OnInit {
 
-  constructor() { }
+  ProductDetails =[
+    {id:1, compnayname:"Suzuki", name:"OMNI"},
+    {id:2, compnayname:"Suzuki", name:"ECCO"}];   
+
+
+
+constructor() { }
 
   ngOnInit() {
   }
-
+   
 }
