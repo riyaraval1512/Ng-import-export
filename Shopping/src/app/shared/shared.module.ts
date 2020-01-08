@@ -4,7 +4,8 @@ import { CommonModule } from '@angular/common';
 
 @NgModule({
   declarations: [],
-  imports: [],
+  imports: [
+  ],
   exports:[
     BrowserModule,
     CommonModule

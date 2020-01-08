@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 
+
 @Component({
   selector: 'app-catagory',
   templateUrl: './catagory.component.html',
@@ -8,8 +9,11 @@ import { Component, OnInit } from '@angular/core';
 export class CatagoryComponent implements OnInit {
 
   constructor() { }
-
+  price1:number;
   ngOnInit() {
+  }
+  prcchange(value:number){
+   this.price1=value;
   }
 
 }

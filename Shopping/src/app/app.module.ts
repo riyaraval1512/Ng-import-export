@@ -1,5 +1,5 @@
 import { NgModule } from '@angular/core';
-import { SharedModule } from './shared/shared.module';
+//import { SharedModule } from './shared/shared.module';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { CatagoryModule } from './catagory/catagory.module';
@@ -11,8 +11,7 @@ import { from } from 'rxjs';
   ],
   imports: [
     AppRoutingModule,
-    CatagoryModule,
-    SharedModule
+    CatagoryModule
   ],
   providers: [],
   bootstrap: [AppComponent]

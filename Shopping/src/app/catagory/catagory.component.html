@@ -1,2 +1,5 @@
 <h1>CAR</h1>
-<app-product></app-product>
+Change Price<input #prc type="number">
+<!-- <input [(ngModel)]="prc" type="number"> --><!--(for data binding)-->
+<button (click)="prcchange(prc.value)">Change</button>
+<app-product [Price]="price1"></app-product>
